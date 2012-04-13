@@ -1,5 +1,6 @@
 # pygame help from http://code.activestate.com/recipes/521884-play-sound-files-with-pygame-in-a-cross-platform-m/ (for playing sounds)
 # shuffle help from http://stackoverflow.com/a/976921/868718
+# seems to work on python 2.7 w/ pygame on ubuntu linux and windows 7
 
 import sys
 import pygame               # This library required for playing audio files
@@ -52,9 +53,7 @@ def main(args):
             # print locals()
             
             try:
-                # playsound("pleasespell.ogg")
                 playsound(soundfile)
-                # playsound("chute.ogg")
             except pygame.error, exc:
                 print >>sys.stderr, "Could not play sound file"
                 print exc

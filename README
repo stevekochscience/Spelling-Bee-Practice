@@ -3,7 +3,7 @@ Steve Koch, stevekochscience@gmail.com
 pygame help from http://code.activestate.com/recipes/521884-play-sound-files-with-pygame-in-a-cross-platform-m/ (for playing sounds)
 shuffle help from http://stackoverflow.com/a/976921/868718
 
-I am still learning python, and this is my first program that does something useful, so it's not good and has bugs.  But it works well enough.
+I am still learning python, and this is my first program that does something useful, so it's not good and has bugs.  But it works well enough.  Seems to work on both ubuntu linux and windows 7 with python 2.7 and pygame package.
 
 ==What it does==
 Plays audio files and asks user to spell the word.  The correct spelling is the filneame (without .ogg)
@@ -14,6 +14,14 @@ Plays audio files and asks user to spell the word.  The correct spelling is the 
 2. download the files from github
 3. > python spell.py
 
-==type exit to exit==
+4. type exit to exit
+
+==How to change words==
+1. Create an ogg file where the name of the file is <correctspelling.ogg>
+2. Edit the file 2012bee.txt to include the file names you want to play
+    a. You can create the file list, for example, on linux by typing 'find *.ogg > 2012bee.txt'
+    
+
+
 
 
