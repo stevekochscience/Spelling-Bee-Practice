@@ -1,0 +1,19 @@
+open license, audio files are recorded by me and are CC0 / public domain
+Steve Koch, stevekochscience@gmail.com
+pygame help from http://code.activestate.com/recipes/521884-play-sound-files-with-pygame-in-a-cross-platform-m/ (for playing sounds)
+shuffle help from http://stackoverflow.com/a/976921/868718
+
+I am still learning python, and this is my first program that does something useful, so it's not good and has bugs.  But it works well enough.
+
+==What it does==
+Plays audio files and asks user to spell the word.  The correct spelling is the filneame (without .ogg)
+
+==How to install and run==
+
+1. install pygame
+2. download the files from github
+3. > python spell.py
+
+==type exit to exit==
+
+
